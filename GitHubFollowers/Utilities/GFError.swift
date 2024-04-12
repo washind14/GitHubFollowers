@@ -1,8 +1,8 @@
 //
-//  ErrorMessage.swift
+//  GFError.swift
 //  GitHubFollowers
 //
-//  Created by Desha Washington on 2/15/24.
+//  Created by Desha Washington on 4/11/24.
 //
 
 import Foundation
