@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+enum SFSymbols {
+    
+    static let location = "mapiin.and.ellipse"
+}
