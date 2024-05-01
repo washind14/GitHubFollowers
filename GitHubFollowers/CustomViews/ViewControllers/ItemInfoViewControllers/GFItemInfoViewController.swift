@@ -15,7 +15,7 @@ class GFItemInfoViewController: UIViewController {
     let actionButton = GitHubFollowersButton()
     
     var user: User!
-    
+    weak var delegate: UserInfoViewControllerDelegate!
     
     init(user: User) {
         super.init(nibName: nil, bundle: nil)
@@ -30,8 +30,10 @@ class GFItemInfoViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         configureBackgroundView()
+        configureActionButton()
         layout()
         configureStackView()
+        
     }
     
     
@@ -49,6 +51,15 @@ class GFItemInfoViewController: UIViewController {
         stackView.addArrangedSubview(itemInfoViewTwo)
     }
     
+    
+    private func configureActionButton(){
+        actionButton.addTarget(self, action: #selector(actionButtonTapped), for: .touchUpInside)
+    }
+    
+    
+    @objc func actionButtonTapped() {
+        
+    }
     
     private func layout() {
         view.addSubview(stackView)
