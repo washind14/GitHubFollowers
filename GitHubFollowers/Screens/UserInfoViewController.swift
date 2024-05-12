@@ -129,6 +129,7 @@ extension UserInfoViewController: UserInfoViewControllerDelegate {
         presentSafariVC(with: url)
     }
     
+    
     func didTapGetFollowers(for user: User) {
         guard user.followers != 0 else {
             presentGFAlertOnMainThread(title: "No followers", message: "This user has no followers ☹️", buttonTitle: "Ok")
