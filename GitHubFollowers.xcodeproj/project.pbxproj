@@ -35,6 +35,7 @@
 		ABACFE062BC880AB00305F10 /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABACFE052BC880AB00305F10 /* UserInfoViewController.swift */; };
 		ABACFE082BC8E7FC00305F10 /* GFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABACFE072BC8E7FC00305F10 /* GFError.swift */; };
 		ABC423582BC6336000A04A82 /* GFEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC423572BC6336000A04A82 /* GFEmptyStateView.swift */; };
+		ABCCEF212BF2C224008B2ED9 /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCCEF202BF2C224008B2ED9 /* PersistenceManager.swift */; };
 		ABCD13202BD742A800AEAAAC /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCD131F2BD742A800AEAAAC /* Date+Ext.swift */; };
 		ABCD13222BD7433100AEAAAC /* String+ Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCD13212BD7433100AEAAAC /* String+ Ext.swift */; };
 		ABDA08452BBF93340080897D /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDA08442BBF93340080897D /* UIHelper.swift */; };
@@ -71,6 +72,7 @@
 		ABACFE052BC880AB00305F10 /* UserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
 		ABACFE072BC8E7FC00305F10 /* GFError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFError.swift; sourceTree = "<group>"; };
 		ABC423572BC6336000A04A82 /* GFEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFEmptyStateView.swift; sourceTree = "<group>"; };
+		ABCCEF202BF2C224008B2ED9 /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
 		ABCD131F2BD742A800AEAAAC /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
 		ABCD13212BD7433100AEAAAC /* String+ Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+ Ext.swift"; sourceTree = "<group>"; };
 		ABDA08442BBF93340080897D /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
@@ -187,6 +189,7 @@
 			isa = PBXGroup;
 			children = (
 				AB0E80AE2B74A14400DF7437 /* NetworkManager.swift */,
+				ABCCEF202BF2C224008B2ED9 /* PersistenceManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -353,6 +356,7 @@
 				AB0E805C2B6B1C2100DF7437 /* FavoritesListViewController.swift in Sources */,
 				ABCD13202BD742A800AEAAAC /* Date+Ext.swift in Sources */,
 				AB46D6E02BCA25C9006392C5 /* GFSecondaryTitleLabel.swift in Sources */,
+				ABCCEF212BF2C224008B2ED9 /* PersistenceManager.swift in Sources */,
 				ABC423582BC6336000A04A82 /* GFEmptyStateView.swift in Sources */,
 				AB0E80AF2B74A14500DF7437 /* NetworkManager.swift in Sources */,
 				AB0E809F2B6F62C700DF7437 /* GitHubFollowerBodyLabel.swift in Sources */,
