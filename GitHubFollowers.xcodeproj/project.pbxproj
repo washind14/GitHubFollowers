@@ -27,6 +27,7 @@
 		AB0E80AA2B7498A200DF7437 /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0E80A92B7498A200DF7437 /* Follower.swift */; };
 		AB0E80AC2B74995800DF7437 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0E80AB2B74995800DF7437 /* User.swift */; };
 		AB0E80AF2B74A14500DF7437 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0E80AE2B74A14400DF7437 /* NetworkManager.swift */; };
+		AB42C9C02C0249DE00825ADA /* GFTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB42C9BF2C0249DE00825ADA /* GFTabBarController.swift */; };
 		AB46D6DE2BCA2502006392C5 /* GFUserInfoHeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB46D6DD2BCA2502006392C5 /* GFUserInfoHeaderViewController.swift */; };
 		AB46D6E02BCA25C9006392C5 /* GFSecondaryTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB46D6DF2BCA25C9006392C5 /* GFSecondaryTitleLabel.swift */; };
 		AB46D6E22BCA2D69006392C5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB46D6E12BCA2D69006392C5 /* Constants.swift */; };
@@ -65,6 +66,7 @@
 		AB0E80A92B7498A200DF7437 /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
 		AB0E80AB2B74995800DF7437 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		AB0E80AE2B74A14400DF7437 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		AB42C9BF2C0249DE00825ADA /* GFTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTabBarController.swift; sourceTree = "<group>"; };
 		AB46D6DD2BCA2502006392C5 /* GFUserInfoHeaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFUserInfoHeaderViewController.swift; sourceTree = "<group>"; };
 		AB46D6DF2BCA25C9006392C5 /* GFSecondaryTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFSecondaryTitleLabel.swift; sourceTree = "<group>"; };
 		AB46D6E12BCA2D69006392C5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 		AB0E80A52B6F76FE00DF7437 /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
+				AB42C9BE2C0249A700825ADA /* TabBarControllers */,
 				ABC423562BC632FA00A04A82 /* Labels */,
 				ABC423552BC6329D00A04A82 /* ViewControllers */,
 				ABC423542BC6329100A04A82 /* ImageViews */,
@@ -194,6 +197,14 @@
 				ABCCEF202BF2C224008B2ED9 /* PersistenceManager.swift */,
 			);
 			path = Managers;
+			sourceTree = "<group>";
+		};
+		AB42C9BE2C0249A700825ADA /* TabBarControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AB42C9BF2C0249DE00825ADA /* GFTabBarController.swift */,
+			);
+			path = TabBarControllers;
 			sourceTree = "<group>";
 		};
 		AB72B0BE2BADC2B1008DD4E6 /* Cells */ = {
@@ -354,6 +365,7 @@
 				AB0E80972B6C848A00DF7437 /* FollowerListViewController.swift in Sources */,
 				AB7AB4052BFFC4540062929D /* FavoriteCell.swift in Sources */,
 				AB72B0C02BADC2D7008DD4E6 /* FollowerCell.swift in Sources */,
+				AB42C9C02C0249DE00825ADA /* GFTabBarController.swift in Sources */,
 				AB0E809D2B6F611100DF7437 /* GitHubFollowersTitleLabel.swift in Sources */,
 				ABACFE082BC8E7FC00305F10 /* GFError.swift in Sources */,
 				AB0E80AA2B7498A200DF7437 /* Follower.swift in Sources */,
