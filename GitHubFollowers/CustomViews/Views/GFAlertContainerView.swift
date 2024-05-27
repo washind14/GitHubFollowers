@@ -1,17 +1,13 @@
 //
-//  GFAvatarImageView.swift
+//  GFAlertContainerView.swift
 //  GitHubFollowers
 //
-//  Created by Desha Washington on 3/22/24.
+//  Created by Desha Washington on 5/26/24.
 //
 
 import UIKit
 
-class GFAvatarImageView: UIImageView {
-    
-    let cache = NetworkManager.shared.cache
-    let placeHolderImage = UIImage(named: "avatar-placeholder")!
-
+class GFAlertContainerView: UIView {
 
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -25,9 +21,11 @@ class GFAvatarImageView: UIImageView {
     
     
     private func configure() {
-        layer.cornerRadius = 10
-        clipsToBounds = true
-        image = placeHolderImage
+        backgroundColor = .systemBackground //Makes alert background color solid (non-transparent)
+        layer.cornerRadius = 16
+        layer.borderWidth = 2
+        layer.borderColor = UIColor.white.cgColor
         translatesAutoresizingMaskIntoConstraints = false
     }
+    
 }
