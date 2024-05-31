@@ -10,7 +10,7 @@ import UIKit
 class GFAvatarImageView: UIImageView {
     
     let cache = NetworkManager.shared.cache
-    let placeHolderImage = UIImage(named: "avatar-placeholder")!
+    let placeHolderImage = Images.placeholder
 
 
     override init(frame: CGRect) {
