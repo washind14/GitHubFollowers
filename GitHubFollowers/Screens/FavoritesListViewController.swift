@@ -48,7 +48,7 @@ class FavoritesListViewController: GFDataLoadingViewController {
             case .success(let favorites):
                 
                 if favorites.isEmpty {
-                    self.showEmptyStateView(with: "No Favorites?\nAdd on on the follower screen", in: self.view)
+                    self.showEmptyStateView(with: "No Favorites?\nAdd one on the follower screen", in: self.view)
                 } else {
                     self.favorites = favorites
                     DispatchQueue.main.async {
