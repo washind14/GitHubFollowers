@@ -18,10 +18,11 @@ class GitHubFollowerAlertViewController: UIViewController {
     var message: String?
     var buttonTitle: String?
     
+    
     let padding: CGFloat = 20
     
     
-    init(title: String, message:  String, buttonTitle: String) { //May need to change "alertTitle" to "title"
+    init(title: String, message:  String, buttonTitle: String) {
         super.init(nibName: nil, bundle: nil)
         self.alertTitle = title
         self.message = message
@@ -38,6 +39,7 @@ class GitHubFollowerAlertViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = UIColor.black.withAlphaComponent(0.75)
         view.addSubviews(containerView, titleLabel, actionButton, messageLabel)
+        
         configureContainerView()
         configureTitleLabel()
         configureActionButton()
@@ -58,6 +60,7 @@ class GitHubFollowerAlertViewController: UIViewController {
         ])
     }
     
+    
     func configureTitleLabel() {
         titleLabel.text = alertTitle ?? "Something went wrong"
         
@@ -68,6 +71,7 @@ class GitHubFollowerAlertViewController: UIViewController {
             titleLabel.heightAnchor.constraint(equalToConstant: 28)
         ])
     }
+    
     
     func configureActionButton() {
         actionButton.setTitle(buttonTitle ?? "Ok", for: .normal)
@@ -91,7 +95,6 @@ class GitHubFollowerAlertViewController: UIViewController {
             messageLabel.leadingAnchor.constraint(equalTo: containerView.leadingAnchor, constant: padding),
             messageLabel.trailingAnchor.constraint(equalTo: containerView.trailingAnchor, constant: -padding),
             messageLabel.bottomAnchor.constraint(equalTo: actionButton.topAnchor, constant: -12)
-        
         ])
     }
     

@@ -9,5 +9,5 @@ import Foundation
 
 struct Follower: Codable, Hashable {
     var login: String
-    var avatarUrl: String //changed to Camel Case from Snake Case
+    var avatarUrl: String 
 }

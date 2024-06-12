@@ -10,7 +10,6 @@ import Foundation
 struct User: Codable {
     let login: String
     let avatarUrl: String
-    //Optional Strings as they might be empty on user's profile
     var name: String?
     var location: String?
     var bio: String?

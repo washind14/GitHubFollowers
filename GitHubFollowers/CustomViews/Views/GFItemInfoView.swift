@@ -7,7 +7,6 @@
 
 import UIKit
 
-
 enum ItemInfoType {
     case repos, gists, followers, following
 }
@@ -70,8 +69,8 @@ class GFItemInfoView: UIView {
         case .following:
             symbolImageView.image = SFSymbols.following
             titleLabel.text = "Following"
-            
         }
+        
         countLabel.text = String(count)
     }
 }

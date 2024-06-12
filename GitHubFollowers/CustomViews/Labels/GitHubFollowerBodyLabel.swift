@@ -14,9 +14,11 @@ class GitHubFollowerBodyLabel: UILabel {
         configure()
     }
     
+    
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
+    
     
    convenience init(textAlignment: NSTextAlignment) {
         self.init(frame: .zero)
@@ -33,5 +35,4 @@ class GitHubFollowerBodyLabel: UILabel {
         lineBreakMode = .byWordWrapping //Wraps line
         translatesAutoresizingMaskIntoConstraints = false
     }
-
 }

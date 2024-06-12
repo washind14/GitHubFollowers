@@ -26,7 +26,6 @@ class UserInfoViewController: GFDataLoadingViewController {
     var username: String!
     weak var delegate: UserInfoViewControllerDelegate!
     
-
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -52,11 +51,8 @@ class UserInfoViewController: GFDataLoadingViewController {
         
         
         NSLayoutConstraint.activate([
-        
             contentView.widthAnchor.constraint(equalTo: scrollView.widthAnchor),
             contentView.heightAnchor.constraint(equalToConstant: 600)
-            
-        
         ])
     }
     

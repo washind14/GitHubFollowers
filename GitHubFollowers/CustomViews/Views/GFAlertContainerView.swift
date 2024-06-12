@@ -21,11 +21,10 @@ class GFAlertContainerView: UIView {
     
     
     private func configure() {
-        backgroundColor = .systemBackground //Makes alert background color solid (non-transparent)
+        backgroundColor = .systemBackground
         layer.cornerRadius = 16
         layer.borderWidth = 2
         layer.borderColor = UIColor.white.cgColor
         translatesAutoresizingMaskIntoConstraints = false
     }
-    
 }

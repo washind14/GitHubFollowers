@@ -13,7 +13,7 @@ class GFDataLoadingViewController: UIViewController {
     
     fileprivate var containerView: UIView!
 
-    //ACTIVITY INDICATOR
+   
     func showLoadingView() {
         containerView = UIView(frame: view.bounds)
         view.addSubview(containerView)
@@ -32,10 +32,10 @@ class GFDataLoadingViewController: UIViewController {
         NSLayoutConstraint.activate([
             activityIndicator.centerYAnchor.constraint(equalTo: containerView.centerYAnchor),
             activityIndicator.centerXAnchor.constraint(equalTo: containerView.centerXAnchor)
-        
         ])
         activityIndicator.startAnimating()
     }
+    
     
     func dismissLoadingView() {
         DispatchQueue.main.async {

@@ -20,7 +20,7 @@ class GitHubFollowersButton: UIButton {
     }
     
     
-   convenience init(backgroundColor: UIColor, title: String) {
+    convenience init(backgroundColor: UIColor, title: String) {
         self.init(frame: .zero)
         self.backgroundColor = backgroundColor
         self.setTitle(title, for: .normal)

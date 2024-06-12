@@ -16,6 +16,7 @@ enum SFSymbols {
     static let following =  UIImage(systemName: "person.2")
 }
 
+
 enum Images {
     static let placeholder = UIImage(named: "avatar-placeholder")
     static let emptyStateLogo = UIImage(named: "empty-state-logo")
@@ -23,12 +24,14 @@ enum Images {
     
 }
 
+
 enum ScreenSize {
     static let width = UIScreen.main.bounds.size.width
     static let height = UIScreen.main.bounds.size.height
     static let maxLength = max(width, height)
     static let minLength = min(width, height)
 }
+
 
 enum DeviceTypes {
     static let idiom = UIDevice.current.userInterfaceIdiom

@@ -34,5 +34,4 @@ class GitHubFollowersTitleLabel: UILabel {
         lineBreakMode = .byTruncatingTail //Shrinks line to ...
         translatesAutoresizingMaskIntoConstraints = false
     }
-    
 }

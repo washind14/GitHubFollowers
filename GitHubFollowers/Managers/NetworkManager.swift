@@ -47,7 +47,6 @@ class NetworkManager {
                 completed(.success(followers))
             } catch {
                 completed(.failure(.invalidData))
-//                completed(nil, "The data received from the server was invalid. Please try again.")
             }
         }
        task.resume()

@@ -22,7 +22,6 @@ class GFTabBarController: UITabBarController {
         searchViewController.tabBarItem = UITabBarItem(tabBarSystemItem: .search, tag: 0)
         
         return UINavigationController(rootViewController: searchViewController)
-        
     }
     
     
